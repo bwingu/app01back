@@ -6,3 +6,4 @@ cobertura.ser
 /precompiled/
 /modules/*
 /test-result/
+/eclipse
