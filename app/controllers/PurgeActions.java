@@ -8,6 +8,8 @@ import models.ListElement;
 import play.Logger;
 import play.data.validation.Required;
 
+
+//TODO : A migrer (entierement ?) dans l'application d'exploitation.
 public class PurgeActions extends ControllerParent {
     
     //Permet de purger les listes non modifiés depuis un certain temps
