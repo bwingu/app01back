@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import models.User;
-
+import controllers.exploit.*;
 import play.Play;
 import play.data.validation.Required;
 import play.mvc.Before;

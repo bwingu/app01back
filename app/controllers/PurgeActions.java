@@ -4,12 +4,13 @@ import java.util.Date;
 import java.util.List;
 
 import models.ListElement;
-
+import play.mvc.*;
 import play.Logger;
 import play.data.validation.Required;
 
 
 //TODO : A migrer (entierement ?) dans l'application d'exploitation.
+@With({Auditor.class})
 public class PurgeActions extends ControllerParent {
     
     //Permet de purger les listes non modifiés depuis un certain temps
