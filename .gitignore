@@ -4,6 +4,5 @@ cobertura.ser
 /logs/
 /tmp/
 /precompiled/
-/modules/*
 /test-result/
 /eclipse
