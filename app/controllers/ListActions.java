@@ -8,7 +8,6 @@ import play.*;
 import play.mvc.*;
 import play.data.validation.*;
 
-@With({Auditor.class})
 public class ListActions extends ControllerParent {
 
 	//Permet de créer une nouvelle liste

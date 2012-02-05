@@ -7,7 +7,6 @@ import play.*;
 import play.mvc.*;
 import play.data.validation.*;
 
-@With({Auditor.class})
 public class ElementActions extends ControllerParent {
     
     //Permet d'ajouter un élement à la liste

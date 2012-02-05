@@ -5,6 +5,16 @@
 # Home page
 GET     /                                       					Application.index
 
+GET     /{controller}/api                       					OpenApi.api
+GET     /{controller}/secureRandom                       			SecurityPlugin.secureRandom
+GET     /{controller}/getUser                       				SecurityPlugin.getUser
+
+PUT		/{controller}/login											SecurityPlugin.login
+POST    /{controller}/login                							SecurityPlugin.login
+
+PUT		/{controller}/logout										SecurityPlugin.logout
+POST    /{controller}/logout                						SecurityPlugin.logout
+
 PUT		/list.{<json|html>format} 									ListActions.createList
 POST    /list.{<json|html>format}                  					ListActions.createList
 GET		/list/{<\w+>idList}.{<json|html>format} 					ListActions.showList
