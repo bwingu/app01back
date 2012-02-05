@@ -2,23 +2,16 @@
 
 require:
     - play
-    - customModules -> Authenticate
-    - exploit -> exploit
-    #- play -> gae 1.4
     - play -> cloudbees 0.2.2
     - play -> db 1.1.1
     - play -> cobertura 2.4
-
+    - com.bwingu -> exploit 0.1
+    - com.bwingu -> authenticate 0.1
+    
 repositories:
-
-    - playCustomModules:
-        type: local
-        artifact: "/Users/sebastienlouis/DEV-APP/play-1.2.4/authenticate"
+    
+    - bwingu:
+        type:       http
+        artifact:   "http://www.bforbrain.com/repo/[module]/[module]-[revision].zip"
         contains:
-            - customModules -> *
-            
-    - playExploit:
-        type: local
-        artifact: "/Users/sebastienlouis/DEV-APP/play-1.2.4/exploit"
-        contains:
-            - exploit -> *
+            - com.bwingu -> *
