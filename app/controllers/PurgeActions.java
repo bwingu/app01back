@@ -10,7 +10,6 @@ import play.data.validation.Required;
 
 
 //TODO : A migrer (entierement ?) dans l'application d'exploitation.
-@With({Auditor.class})
 public class PurgeActions extends ControllerParent {
     
     //Permet de purger les listes non modifiés depuis un certain temps

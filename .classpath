@@ -84,5 +84,6 @@
 	<classpathentry kind="lib" path="/home/himurafred/application_mobile/play/modules/cobertura-2.4/lib/jakarta-oro-2.0.8.jar"/>
 	<classpathentry kind="lib" path="/home/himurafred/application_mobile/play/modules/cobertura-2.4/lib/play-cobertura.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/authenticate"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/exploit"/>
 	<classpathentry kind="output" path="eclipse/classes"/>
 </classpath>
